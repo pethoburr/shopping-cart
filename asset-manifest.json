@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.e5be8e56.css",
+    "main.js": "/shopping-cart/static/js/main.22dcc1ac.js",
+    "static/js/787.d6fe38e8.chunk.js": "/shopping-cart/static/js/787.d6fe38e8.chunk.js",
+    "static/media/motobike.mov": "/shopping-cart/static/media/motobike.fd7f0f671035892b01ed.mov",
+    "static/media/gsxr600.jpg": "/shopping-cart/static/media/gsxr600.bcfacccdb2e7dfbe76f1.jpg",
+    "static/media/r1.jpeg": "/shopping-cart/static/media/r1.f71e40659a340378ce28.jpeg",
+    "static/media/hippo.avif": "/shopping-cart/static/media/hippo.93c69febafece73f6a38.avif",
+    "static/media/aprilla.avif": "/shopping-cart/static/media/aprilla.dba6ede888689d7dbb80.avif",
+    "static/media/cbr600rr.jpeg": "/shopping-cart/static/media/cbr600rr.8534c86d6a85a34249e1.jpeg",
+    "static/media/v4.jpg": "/shopping-cart/static/media/v4.34f733f03c37de90653b.jpg",
+    "static/media/cbr1000rr.webp": "/shopping-cart/static/media/cbr1000rr.31ef01789a6a981ae780.webp",
+    "static/media/zx10r.jpg": "/shopping-cart/static/media/zx10r.eec6bec05e14e4ef369d.jpg",
+    "static/media/zx6r.jpg": "/shopping-cart/static/media/zx6r.6eb736c82683505617b4.jpg",
+    "static/media/r6.jpg": "/shopping-cart/static/media/r6.b7f7b46f0494d604b5b9.jpg",
+    "static/media/h2r.jpg": "/shopping-cart/static/media/h2r.f80c38b71acdf049acab.jpg",
+    "static/media/austinPowers.jpg": "/shopping-cart/static/media/austinPowers.9dd60293d7cbdfe93c73.jpg",
+    "static/media/bmw.jpeg": "/shopping-cart/static/media/bmw.6e280e417f41daba99eb.jpeg",
+    "static/media/gsxr750.jpeg": "/shopping-cart/static/media/gsxr750.c9b9801253a3111133fc.jpeg",
+    "index.html": "/shopping-cart/index.html",
+    "main.e5be8e56.css.map": "/shopping-cart/static/css/main.e5be8e56.css.map",
+    "main.22dcc1ac.js.map": "/shopping-cart/static/js/main.22dcc1ac.js.map",
+    "787.d6fe38e8.chunk.js.map": "/shopping-cart/static/js/787.d6fe38e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5be8e56.css",
+    "static/js/main.22dcc1ac.js"
+  ]
+}
