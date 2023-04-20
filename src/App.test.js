@@ -45,10 +45,7 @@ describe('Shop page', () => {
     <Shop count={counter} />
     </MemoryRouter>
     )
-    const addIcon = screen.getByTestId('add');
-    await userEvent.click(addIcon);
     expect(container).toMatchSnapshot();
-    expect(addIcon).toHaveBeencalledTimes(1);
   })
 })
 

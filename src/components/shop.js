@@ -98,7 +98,7 @@ const Shop = (props) => {
             }}
           >
             {" "}
-            <RemoveIcon data-test-id='remove' fontSize="small" />
+            <RemoveIcon fontSize="small" />
           </Button>
           <Button
             onClick={() => {
@@ -109,7 +109,7 @@ const Shop = (props) => {
             }}
           >
             {" "}
-            <AddIcon data-test-id='add' fontSize="small" />
+            <AddIcon fontSize="small" />
           </Button>
         </ButtonGroup>
                     </div>
