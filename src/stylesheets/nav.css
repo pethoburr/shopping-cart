@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    padding: 2rem;
+    background: radial-gradient(circle at 10.6% 22.1%, rgb(206, 18, 18) 0%, rgb(122, 21, 21) 100.7%);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cartEl {
+    background-color: lightgrey;
+    padding: 1rem;
+    border-radius: 2rem;
+    position: fixed;
+    top: 2.5rem;
+}
+
+.links {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+h3:hover, li:hover {
+    color: red;
+}
+
+
+li, h3 {
+    color:  white;
+}
+
+ul {
+    display: flex;
+    flex-grow: .5;
+    justify-content: space-around;
+    align-items: baseline;
+    list-style: none;
+}

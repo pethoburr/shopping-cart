@@ -1,0 +1,67 @@
+h4 {
+    text-align: center;
+    font-size: 4rem;
+    grid-column: 1 / -1;
+    color: darkred;
+    
+}
+
+.bmwImg, .gsxrImg, .cbrImg {
+    height: 15rem;
+    width: 15rem;
+}
+
+.ducatiImg {
+    margin-bottom: 1rem;
+}
+
+#ducati {
+    margin-bottom: 1.5rem;
+}
+
+img {
+    height: 18rem;
+    width: 18rem;
+}
+
+.allPics {
+    grid-column: 1 / 3;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.picContainer:hover {
+    cursor: pointer;
+    border: 1px solid red;
+}
+.picContainer {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cart {
+    color: black
+}
+
+.cart:hover {
+    color: white;
+}
+
+a {
+    text-align: right;
+}
+
+.shopContainer {
+    display: grid;
+    grid-template-columns: 2fr 2fr .4fr;
+}
