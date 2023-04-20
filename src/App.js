@@ -1,5 +1,5 @@
 import React , { useState }from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import About from './components/about.js';
 import Shop from './components/shop.js';
 import Contact from './components/contact.js';
@@ -58,7 +58,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="App">
       <Routes>
       <Route path='/' Component={Home} />
@@ -67,7 +67,7 @@ function App() {
       <Route path='/contact' element={<Contact counter={itemCount} bag={cart} plus={increment} minus={decrement} update={add} cut={remove} />} />
       </Routes>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

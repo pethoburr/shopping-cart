@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import App from './App';
 import About from './components/about.js';
 import Shop from './components/shop.js';
 import Contact from './components/contact.js';
@@ -38,14 +37,24 @@ describe('About page', () => {
 })
 
 describe('Shop page', () => {
-  it('renders page', async () => {
-    const counter = jest.fn();
+  it('renders page and calls state updater functions', async () => {
+    const props = {
+      counter: 0,
+      bag: [],
+      plus: jest.fn(),
+      minus: jest.fn(),
+      update: jest.fn(),
+      cut: jest.fn()
+    }
     const { container } = render(
       <MemoryRouter initialEntries={['/']} initialIndex={0}>
-    <Shop count={counter} />
+    <Shop {...props}   />
     </MemoryRouter>
     )
+    const btn = screen.getAllByRole('button');
+    await userEvent.click(btn[1]);
     expect(container).toMatchSnapshot();
+    expect(props.plus).toHaveBeenCalledTimes(1);
   })
 })
 
@@ -55,6 +64,25 @@ describe('nav page', () => {
     const { container } = render(
       <MemoryRouter initialEntries={['/']} initialIndex={0}>
     <Nav count={counter} />
+    </MemoryRouter>
+    )
+    expect(container).toMatchSnapshot(); 
+  })
+})
+
+describe('Cart page (contact)', () => {
+  it('renders cart page', () => {
+    const props = {
+      counter: 0,
+      bag: [],
+      plus: jest.fn(),
+      minus: jest.fn(),
+      update: jest.fn(),
+      cut: jest.fn()
+    }
+    const { container } = render(
+      <MemoryRouter initialEntries={['/']} initialIndex={0}>
+    <Contact {...props} />
     </MemoryRouter>
     )
     expect(container).toMatchSnapshot(); 
