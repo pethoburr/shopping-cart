@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.e5be8e56.css",
-    "main.js": "/shopping-cart/static/js/main.22dcc1ac.js",
+    "main.js": "/shopping-cart/static/js/main.16270311.js",
     "static/js/787.d6fe38e8.chunk.js": "/shopping-cart/static/js/787.d6fe38e8.chunk.js",
     "static/media/motobike.mov": "/shopping-cart/static/media/motobike.fd7f0f671035892b01ed.mov",
     "static/media/gsxr600.jpg": "/shopping-cart/static/media/gsxr600.bcfacccdb2e7dfbe76f1.jpg",
@@ -20,11 +20,11 @@
     "static/media/gsxr750.jpeg": "/shopping-cart/static/media/gsxr750.c9b9801253a3111133fc.jpeg",
     "index.html": "/shopping-cart/index.html",
     "main.e5be8e56.css.map": "/shopping-cart/static/css/main.e5be8e56.css.map",
-    "main.22dcc1ac.js.map": "/shopping-cart/static/js/main.22dcc1ac.js.map",
+    "main.16270311.js.map": "/shopping-cart/static/js/main.16270311.js.map",
     "787.d6fe38e8.chunk.js.map": "/shopping-cart/static/js/787.d6fe38e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5be8e56.css",
-    "static/js/main.22dcc1ac.js"
+    "static/js/main.16270311.js"
   ]
 }
