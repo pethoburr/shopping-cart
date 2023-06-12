@@ -1,9 +1,17 @@
-nav {
+ nav {
     display: flex;
     padding: 2rem;
     background: radial-gradient(circle at 10.6% 22.1%, rgb(206, 18, 18) 0%, rgb(122, 21, 21) 100.7%);
     justify-content: space-around;
     align-items: center;
+}
+
+.mobileCart {
+    display: none;
+}
+
+.links {
+    padding: 2rem;
 }
 
 .cartEl {
@@ -21,7 +29,7 @@ nav {
 
 h3 {
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 h3:hover, li:hover {
@@ -35,8 +43,64 @@ li, h3 {
 
 ul {
     display: flex;
-    flex-grow: .5;
     justify-content: space-around;
     align-items: baseline;
     list-style: none;
+}
+
+.burgerIcon {
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .cartEl {
+        margin-right: 1rem;
+        position: fixed;
+        margin-top: 40rem;
+        right: 0;
+        height: 3.5rem;
+    }
+
+    nav {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 0px;
+        justify-content: space-between;
+    }
+
+    h3 {
+        font-size: larger;
+    }
+
+    .x:hover, .burgerIcon:hover {
+        cursor: pointer;
+    }
+
+    .x {
+        font-weight: 900;
+        font-size: larger;
+    }
+
+    .burgerIcon {
+        position: absolute;
+        right: 5rem;
+        top: 2;
+        display: inline-block;
+        color: white;
+    }
+
+    .linksys {
+        color: white;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .hamburger {
+        padding-top: 1rem;
+        
+    }
+    
 }

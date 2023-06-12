@@ -65,3 +65,18 @@ a {
     display: grid;
     grid-template-columns: 2fr 2fr .4fr;
 }
+
+@media (max-width: 750px) {
+    .allPics {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .picContainer:hover {
+        border: none;
+    }
+
+    .totalP, .checkoutEl {
+        font-size: medium;
+    }
+}
